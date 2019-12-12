@@ -1,0 +1,5 @@
+var UnityEngine = importNamespace("UnityEngine");
+var IceEngine = importNamespace("IceEngine");
+var Pingu =  importNamespace("Pingu");
+
+UnityEngine.Debug.Log("Starting Surströmming Factory mod");

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2122849384, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
+  m_Name: Meds
+  m_EditorClassIdentifier: 
+  id: 46
+  parentResource: {fileID: 0}
+  rootResource: {fileID: 11400000}
+  childResources:
+  - {fileID: 11400000, guid: 3f7cca8fa27e3aa45917223fe8c3c9a6, type: 2}
+  - {fileID: 11400000, guid: 83193876d2fb11d4abc7b9e2b89897d4, type: 2}
+  - {fileID: 11400000, guid: 344a639c71bd5074f9ab901d147e42c7, type: 2}
+  - {fileID: 11400000, guid: 617692f1335d23644b2d7389f543ccf7, type: 2}
+  - {fileID: 11400000, guid: 1be3ca98014cde6449a533e1701f4009, type: 2}
+  resourceVisualPrefab: {fileID: 4539593765482171094, guid: 7f7d80b0b96c9c54190984a0d2ed0da7,
+    type: 3}
+  harvestTime: 2
+  harvestAmount: 5
+  carryOffset: {x: -0.18, y: -0.032, z: -0.083}
+  carryScale: {x: 0.7, y: 0.7, z: 0.7}
+  carryRotation: {x: 70, y: 0, z: 0}
+  weight: 25
+  value: 500

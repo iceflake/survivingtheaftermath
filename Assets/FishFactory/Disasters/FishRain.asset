@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -329929665, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
+  m_Name: FishRain
+  m_EditorClassIdentifier: 
+  id: 1586530000
+  catastrophe: 1
+  preventGrowingFood: 0
+  removeCrop: 0
+  cropRemoveAmount:
+    min: 0
+    max: 0
+  disableElectricityProduction: 0
+  personConditionDatas: []
+  waterConsumptionFactor: 1
+  personValueDecayMultipliers: []
+  personValueDecayRate: []
+  damageDealData:
+    damageTargetTypes: 2
+    applyDirectDamage: 1
+    targetPercentage: 0.3
+    damageRange:
+      min: 0.047138046
+      max: 0.26329964
+    effectRate: 10
+    effectOffset: 1
+    depositResource: {fileID: 0}
+    damageEffectTime: 5
+    applySplashDamage: 0
+    splashDamage:
+      includeBuildings: 0
+      includePeople: 0
+      radius: 0
+      personDamageTypes: []
+      buildingDamage: 0
+  warningIcon: {fileID: 0}
+  duration:
+    min: 0.1
+    max: 0.4
+  postProcessProfile: {fileID: 0}
+  effectSpawnRate: 0.3
+  randomSpawnOffset: 1
+  randomTargetedEffectSpawnRate: 1
+  randomTargetedEffectSpawnOffset: 0.5
+  disasterEffectPrefabs: []
+  targetedDisasterEffectPrefabs:
+  - {fileID: 178935473771124302, guid: 1bbe8552e6ea133468a8bd0e5fbc64e1, type: 3}
+  fadeSpeed: 0.1
+  cameraEffect: {fileID: 0}
+  useVisualTargetedEffects: 0
+  fogColor: {r: 0, g: 0.38679248, b: 0, a: 0.6627451}
+  fogRange:
+    min: 0
+    max: 0
+  soundEvent:
+    eventName: event:/SFX/Disasters/Catastrophe - Fallout
+    eventParams: []
+  disasterFogColor: {r: 0, g: 0, b: 0, a: 0}
+  disasterForHeight: 1
+  disasterFogMask1: {x: 0, y: 0, z: 0, w: 1}
+  disasterFogMask2: {x: 0, y: 0, z: 1, w: 0}
+  lightColor:
+    serializedVersion: 2
+    key0: {r: 0, g: 0.8018868, b: 0.44850823, a: 1}
+    key1: {r: 0.09313812, g: 0.21698111, b: 0.12217717, a: 1}
+    key2: {r: 0.47703394, g: 0.8018868, b: 0.27612138, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 31804
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  lightIntensity:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  sky:
+    serializedVersion: 2
+    key0: {r: 0.41478562, g: 1, b: 0, a: 1}
+    key1: {r: 0.4971021, g: 0.7169812, b: 0, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  ground:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  exposure:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ambientIntensity:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

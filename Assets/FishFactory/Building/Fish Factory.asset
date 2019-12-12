@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1677054141, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
+  m_Name: Fish Factory
+  m_EditorClassIdentifier: 
+  id: 1586530000
+  basicBuilding: {fileID: 0}
+  unlockCondition: 0
+  name: '#FISH_FACTORY'
+  category: 3
+  menuType: 0
+  includedInStatistics: 1
+  priority: 99
+  buildResource: 0
+  resources:
+  - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+    value: 10
+  repairResource:
+    type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+    value: 10
+  destructionResources:
+  - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+    value: 5
+  workSlotCount: 2
+  canBeRepaired: 1
+  roadID: 
+  level: 1
+  icon: {fileID: 21300000, guid: b13ac5df4496207428e46d323f7b0754, type: 3}
+  bigIcon: {fileID: 21300000, guid: b13ac5df4496207428e46d323f7b0754, type: 3}
+  models:
+  - visual: {fileID: 1676370284329800940, guid: 4fe2f352649f54f4ea8d40de16fda8a4,
+      type: 3}
+    brushVisual: {fileID: 1676370284329800940, guid: 4fe2f352649f54f4ea8d40de16fda8a4,
+      type: 3}
+    constructions:
+    - {fileID: 1676370284329800940, guid: 4fe2f352649f54f4ea8d40de16fda8a4, type: 3}
+    destructionModel: {fileID: 0}
+  visualizationData:
+    showDeposits: {fileID: 0}
+    buildingPath:
+    - nodes:
+      - worldPosition: {x: 2, y: 0, z: -1}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 0
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 0, y: 0, z: 1}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 0
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 2, y: 0, z: -0.5}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 0
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 2, y: 0, z: 0}
+        doorUse:
+          useDoor: 1
+          doorId: 0
+        isInside: 0
+        isActionNode: 0
+        waitTime: 0
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 0
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      - worldPosition: {x: 2, y: 0, z: 1}
+        doorUse:
+          useDoor: 0
+          doorId: 0
+        isInside: 1
+        isActionNode: 1
+        waitTime: 5
+        shouldRotate: 0
+        lookDirection: {x: 0, y: 0, z: 0}
+        animationID: 0
+        toolID: 0
+        soundEvent:
+          eventName: 
+          eventParams: []
+        soundEventDelay: 0
+      useWorkpathTools: 1
+      isActive: 1
+    entryPath:
+    - worldPosition: {x: 2, y: 0, z: -1}
+      doorUse:
+        useDoor: 0
+        doorId: 0
+      isInside: 0
+      isActionNode: 0
+      waitTime: 0
+      shouldRotate: 0
+      lookDirection: {x: 0, y: 0, z: 0}
+      animationID: 0
+      toolID: 0
+      soundEvent:
+        eventName: 
+        eventParams: []
+      soundEventDelay: 0
+    - worldPosition: {x: 2, y: 0, z: 0}
+      doorUse:
+        useDoor: 0
+        doorId: 0
+      isInside: 0
+      isActionNode: 0
+      waitTime: 0
+      shouldRotate: 0
+      lookDirection: {x: 0, y: 0, z: 0}
+      animationID: 0
+      toolID: 0
+      soundEvent:
+        eventName: 
+        eventParams: []
+      soundEventDelay: 0
+    - worldPosition: {x: 2, y: 0, z: 1}
+      doorUse:
+        useDoor: 0
+        doorId: 0
+      isInside: 1
+      isActionNode: 0
+      waitTime: 5
+      shouldRotate: 0
+      lookDirection: {x: 0, y: 0, z: 0}
+      animationID: 0
+      toolID: 0
+      soundEvent:
+        eventName: 
+        eventParams: []
+      soundEventDelay: 0
+    loopWorkingPath: 1
+  properties:
+  - {fileID: 11400000, guid: 2d933c108e7c3b94ab8603f2f6c364c3, type: 2}
+  hideFunctionButtons: 0
+  hideHealthElement: 0
+  hideDescriptionElement: 1
+  hideEfficiencyElement: 1
+  placement:
+    tiles:
+      x: 5
+      y: 6
+    topReserved: 0
+    bottomReserved: 1
+    leftReserved: 0
+    rightReserved: 0
+    placementTiles: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  placementType: 0
+  noDrySoil: 0
+  onlyDrySoil: 0
+  showRadius: 0
+  showRadiusTileGrid: 0
+  cellEfficiencyMode: 0
+  canEditWorkarea: 0
+  canResizeWorkarea: 0
+  canEditStorage: 0
+  targetEfficiency: 0.9
+  isUnique: 0
+  isRemovable: 1
+  indestructible: 0
+  damageMultiplier: 1
+  restrictedPlacement: 0
+  restrictedPlacementPosition: {x: 0, y: 0}
+  decalOverride: {fileID: 0}
+  decalEnabled: 1
+  workAreaRadius: 7
+  buildingDestoyedSoundEvent:
+    eventName: 
+    eventParams: []
+  buildingRunningSoundEvent:
+    eventName: 
+    eventParams: []
+  damageTargetTypes: 0

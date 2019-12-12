@@ -1,0 +1,73 @@
+<data version="0.0.6">
+
+<!-- Loc keys
+
+#EVENT_FISH_FACTORY_01_NAME
+#EVENT_FISH_FACTORY_01_DESC
+#EVENT_FISH_FACTORY_01_NOTIFICATION_HEADER
+#EVENT_FISH_FACTORY_01_NOTIFICATION_DESC
+#EVENT_FISH_FACTORY_01_RESULT_OK
+#EVENT_FISH_FACTORY_01_RESULT_OK_NAME
+#EVENT_FISH_FACTORY_01_RESULT_OK_DESC
+#EVENT_DONE
+
+-->
+	<list_data>
+
+		<event_list name="EVENT_FISH_FACTORY_01_RESULTS">
+			<event_id id="EVENT_FISH_FACTORY_01_RESULT_OK" />
+		</event_list>
+
+	</list_data>
+
+	<events>
+
+		<!-- Start -->
+		<event id="EVENT_FISH_FACTORY_01" timeout="200" cooldown="5000">
+
+			<content header_key="#EVENT_FISH_FACTORY_01_NAME"
+			         desc_key="#EVENT_FISH_FACTORY_01_DESC"
+			         image_name="Event_Survivors2"
+					 soundevent_id="Merchant"
+			         notification_header_key="#EVENT_FISH_FACTORY_01_NOTIFICATION_HEADER"
+			         notification_desc_key="#EVENT_FISH_FACTORY_01_NOTIFICATION_DESC"
+			         visual_object_type="Single" />
+					 
+			<trigger type="DaysPassed" min="1" max="999" />
+			<trigger type="TimeOfDay" min="0" max="0.8" /> <!-- Midnight: 0.5, Midday: 0, Dawn: 0.66, Dusk: 0.33 -->
+			<trigger type="Population" min="1" max="30" />
+			<trigger type="Building" target="#FISH_FACTORY"/>
+			
+			<!-- trigger: CONDITION COUNT X -->
+			
+			<choice>
+				<button text_key="#EVENT_FISH_FACTORY_01_RESULT_OK" />
+				<result type="LoadEvent" list_name="EVENT_FISH_FACTORY_01_RESULTS" />
+			</choice>
+
+			<lifetime unique="false" />
+
+		</event>
+
+
+		<!-- OK-->
+		<event id="EVENT_FISH_FACTORY_01_RESULT_OK" parent_event_id="EVENT_FISH_FACTORY_01">
+
+			<content header_key="#EVENT_FISH_FACTORY_01_RESULT_OK_NAME"
+			         desc_key="#EVENT_FISH_FACTORY_01_RESULT_OK_DESC"
+			         image_name="Event_Survivors2" 
+					 soundevent_id="Negative"
+					 />
+
+			<choice>
+				<button text_key="#EVENT_DONE" />
+			</choice>
+
+			<lifetime unique="false" />
+
+		</event>
+
+
+	</events>
+
+</data>
