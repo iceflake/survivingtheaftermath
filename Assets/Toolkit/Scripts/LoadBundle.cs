@@ -24,7 +24,6 @@ public static class LoadBundle
         buildMap[1].assetBundleName = "ingame";
         buildMap[1].assetNames = new string[]
         {
-            "Assets/Toolkit",
             "Assets/Configurations",
         };
 
