@@ -36,7 +36,7 @@ public static class LoadBundle
             string name = Path.GetFileName(Path.GetDirectoryName(modAssetPath));
 
             buildMap[0].assetBundleName = name.ToLower().Replace(' ', '_');
-            buildMap[0].assetBundleVariant = "";
+            buildMap[0].assetBundleVariant = "mod";
             buildMap[0].assetNames = new string[] { directory };
         }
 
