@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -2122849384, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: Electronics
+  m_Name: Oil
   m_EditorClassIdentifier: 
-  id: 35
+  id: 58
   parentResource: {fileID: 0}
-  resourceVisualPrefab: {fileID: 7481841242306256549, guid: 7a54005992b805745a679e5ef89ccf2b,
+  resourceVisualPrefab: {fileID: 4876742520391242020, guid: 923df2f9aea95454b9bd14915eda21e4,
     type: 3}
   harvestTime: 2
   harvestAmount: 5
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}
   carryScale: {x: 0.7, y: 0.7, z: 0.7}
   carryRotation: {x: 70, y: 0, z: 0}
-  weight: 25
-  value: 250
-  tradeValue: 20
+  weight: 10
+  value: 90
+  tradeValue: 6
