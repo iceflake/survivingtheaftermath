@@ -13,10 +13,15 @@ MonoBehaviour:
   m_Name: Make Fish
   m_EditorClassIdentifier: 
   professionType: 2
-  input: []
-  output:
+  input:
   - type: {fileID: 11400000, guid: f9dd76d1691ba5541bfa960bd83ad3e9, type: 2}
-    value: 2
-  productionTime: 5
+    value: 1
+  - type: {fileID: 11400000, guid: b4c50f89dc7a2b546b9546e6f868361b, type: 2}
+    value: 1
+  output:
+  - type: {fileID: 11400000, guid: 1b7f50697e79f974da2e20e7c34c358a, type: 2}
+    value: 4
+  productionTime: 30
   disasterMultiplier: 1
   recipes: []
+  requireDeposits: 0
