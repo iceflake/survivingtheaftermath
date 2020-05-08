@@ -14,13 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 46
   parentResource: {fileID: 0}
-  rootResource: {fileID: 11400000}
-  childResources:
-  - {fileID: 11400000, guid: 3f7cca8fa27e3aa45917223fe8c3c9a6, type: 2}
-  - {fileID: 11400000, guid: 83193876d2fb11d4abc7b9e2b89897d4, type: 2}
-  - {fileID: 11400000, guid: 344a639c71bd5074f9ab901d147e42c7, type: 2}
-  - {fileID: 11400000, guid: 617692f1335d23644b2d7389f543ccf7, type: 2}
-  - {fileID: 11400000, guid: 1be3ca98014cde6449a533e1701f4009, type: 2}
   resourceVisualPrefab: {fileID: 4539593765482171094, guid: 7f7d80b0b96c9c54190984a0d2ed0da7,
     type: 3}
   harvestTime: 2
@@ -30,3 +23,5 @@ MonoBehaviour:
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 25
   value: 500
+  tradeValue: 1
+  category: 16

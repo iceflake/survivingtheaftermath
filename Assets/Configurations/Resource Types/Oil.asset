@@ -23,4 +23,5 @@ MonoBehaviour:
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 10
   value: 90
-  tradeValue: 6
+  tradeValue: 5
+  category: 64

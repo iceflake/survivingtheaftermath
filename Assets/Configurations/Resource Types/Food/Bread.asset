@@ -24,3 +24,4 @@ MonoBehaviour:
   weight: 10
   value: 100
   tradeValue: 12
+  category: 1
