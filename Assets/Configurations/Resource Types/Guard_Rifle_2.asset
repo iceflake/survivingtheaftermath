@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -2122849384, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: Waxworms
+  m_Name: Guard_Rifle_2
   m_EditorClassIdentifier: 
-  id: 44
-  parentResource: {fileID: 11400000, guid: 32bfb2965bf2a19468ee391b88cb64d3, type: 2}
-  resourceVisualPrefab: {fileID: 7573172630590348649, guid: 1c8f80e5efdedd34fbe7c48222c4325a,
+  id: 61
+  parentResource: {fileID: 0}
+  resourceVisualPrefab: {fileID: 8149724371220675585, guid: 0bc57dacc1fbeef4e8e73a0db88b8ca6,
     type: 3}
-  harvestTime: 1
-  harvestAmount: 1
+  harvestTime: 15
+  harvestAmount: 3
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}
   carryScale: {x: 0.6, y: 0.6, z: 0.6}
   carryRotation: {x: 70, y: 0, z: 0}
-  weight: 2
-  value: 50
-  tradeValue: 5
-  category: 1
+  weight: 40
+  value: 300
+  tradeValue: 175
+  category: 16
   vegetableValue: 0
-  meatValue: 0.03
-  hungerFillValue: 0.75
+  meatValue: 0
+  hungerFillValue: 0.5

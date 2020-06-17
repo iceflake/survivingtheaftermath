@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -2122849384, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: Waxworms
+  m_Name: Rare
   m_EditorClassIdentifier: 
-  id: 44
-  parentResource: {fileID: 11400000, guid: 32bfb2965bf2a19468ee391b88cb64d3, type: 2}
-  resourceVisualPrefab: {fileID: 7573172630590348649, guid: 1c8f80e5efdedd34fbe7c48222c4325a,
+  id: 63
+  parentResource: {fileID: 0}
+  resourceVisualPrefab: {fileID: 8683710407511386414, guid: e966fc10570394f4bbf94847babb073c,
     type: 3}
-  harvestTime: 1
+  harvestTime: 30
   harvestAmount: 1
-  carryOffset: {x: -0.18, y: -0.032, z: -0.083}
+  carryOffset: {x: -0.175, y: -0.061, z: -0.219}
   carryScale: {x: 0.6, y: 0.6, z: 0.6}
-  carryRotation: {x: 70, y: 0, z: 0}
-  weight: 2
-  value: 50
-  tradeValue: 5
-  category: 1
+  carryRotation: {x: 100.1, y: -112.056, z: -111.844}
+  weight: 50
+  value: 100
+  tradeValue: 7
+  category: 8
   vegetableValue: 0
-  meatValue: 0.03
-  hungerFillValue: 0.75
+  meatValue: 0
+  hungerFillValue: 0.5

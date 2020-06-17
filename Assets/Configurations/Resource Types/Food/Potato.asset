@@ -27,3 +27,4 @@ MonoBehaviour:
   category: 1
   vegetableValue: 0.01
   meatValue: 0
+  hungerFillValue: 0.75
