@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -2122849384, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: Corn
+  m_Name: Milk
   m_EditorClassIdentifier: 
-  id: 9
+  id: 64
   parentResource: {fileID: 11400000, guid: fb6cafae6711db743aacfe5ac86125a4, type: 2}
   resourceVisualPrefab: {fileID: 7573172630590348649, guid: 1c8f80e5efdedd34fbe7c48222c4325a,
     type: 3}
-  decayDuration: 960
+  decayDuration: 720
   harvestTime: 3
   harvestAmount: 4
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}
   carryScale: {x: 0.6, y: 0.6, z: 0.6}
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 2
-  value: 50
-  tradeValue: 5
+  value: 100
+  tradeValue: 4
   category: 1
   vegetableValue: 0.01
-  meatValue: 0
+  meatValue: 0.01
   hungerFillValue: 0.75

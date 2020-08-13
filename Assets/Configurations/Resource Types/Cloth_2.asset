@@ -16,6 +16,7 @@ MonoBehaviour:
   parentResource: {fileID: 0}
   resourceVisualPrefab: {fileID: 1874730486844230331, guid: d1a483291ea4a294da14f098aded3066,
     type: 3}
+  decayDuration: 1920
   harvestTime: 2
   harvestAmount: 5
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}

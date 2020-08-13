@@ -16,6 +16,7 @@ MonoBehaviour:
   parentResource: {fileID: 0}
   resourceVisualPrefab: {fileID: 5859083102333311036, guid: a17889f1e060cab4ca521853675be5e0,
     type: 3}
+  decayDuration: 1440
   harvestTime: 20
   harvestAmount: 3
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}
@@ -25,3 +26,6 @@ MonoBehaviour:
   value: 50
   tradeValue: 4
   category: 64
+  vegetableValue: 0
+  meatValue: 0
+  hungerFillValue: 0.5
