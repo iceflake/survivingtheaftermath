@@ -29,3 +29,4 @@ MonoBehaviour:
   vegetableValue: 0
   meatValue: 0
   hungerFillValue: 0.3
+  pollutionValue: 0.02
