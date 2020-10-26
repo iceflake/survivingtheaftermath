@@ -16,12 +16,18 @@ MonoBehaviour:
   parentResource: {fileID: 11400000, guid: e8cd2f4ebc9232e47a92b1b4aa637303, type: 2}
   resourceVisualPrefab: {fileID: 6810975505468309390, guid: c0caf7c648e04ab428a4eacac6f1f8c6,
     type: 3}
+  decayDuration: 960
+  resourceTypeCategory: 0
   harvestTime: 2
   harvestAmount: 5
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}
   carryScale: {x: 0.7, y: 0.7, z: 0.7}
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 25
-  value: 500
+  value: 400
   tradeValue: 25
-  category: 16
+  resourceTradeCategory: 16
+  vegetableValue: 0
+  meatValue: 0
+  hungerFillValue: 0.5
+  pollutionValue: 0

@@ -17,15 +17,17 @@ MonoBehaviour:
   resourceVisualPrefab: {fileID: 4539593765482171094, guid: 7f7d80b0b96c9c54190984a0d2ed0da7,
     type: 3}
   decayDuration: 1440
+  resourceTypeCategory: 0
   harvestTime: 2
   harvestAmount: 5
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}
   carryScale: {x: 0.7, y: 0.7, z: 0.7}
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 25
-  value: 500
+  value: 300
   tradeValue: 1
-  category: 16
+  resourceTradeCategory: 16
   vegetableValue: 0
   meatValue: 0
   hungerFillValue: 0.5
+  pollutionValue: 0
