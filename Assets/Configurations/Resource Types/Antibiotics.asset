@@ -26,7 +26,7 @@ MonoBehaviour:
   weight: 25
   value: 300
   tradeValue: 25
-  resourceTradeCategory: 48
+  resourceTradeCategory: 16
   vegetableValue: 0
   meatValue: 0
   hungerFillValue: 0.5

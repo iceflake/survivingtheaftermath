@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -2122849384, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: Cloth
+  m_Name: Cloth_3
   m_EditorClassIdentifier: 
-  id: 14
+  id: 67
   parentResource: {fileID: 0}
-  resourceVisualPrefab: {fileID: 6547389747691350907, guid: fa1b8616cece1074cbefee751c712765,
+  resourceVisualPrefab: {fileID: 1874730486844230331, guid: d1a483291ea4a294da14f098aded3066,
     type: 3}
-  decayDuration: 1080
+  decayDuration: 1920
   resourceTypeCategory: 0
   harvestTime: 2
   harvestAmount: 5
@@ -24,8 +24,8 @@ MonoBehaviour:
   carryScale: {x: 0.7, y: 0.7, z: 0.7}
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 10
-  value: 200
-  tradeValue: 7
+  value: 250
+  tradeValue: 15
   resourceTradeCategory: 16
   vegetableValue: 0
   meatValue: 0

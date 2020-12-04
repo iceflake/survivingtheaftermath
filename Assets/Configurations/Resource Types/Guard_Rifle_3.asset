@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -2122849384, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: Cloth
+  m_Name: Guard_Rifle_3
   m_EditorClassIdentifier: 
-  id: 14
+  id: 69
   parentResource: {fileID: 0}
-  resourceVisualPrefab: {fileID: 6547389747691350907, guid: fa1b8616cece1074cbefee751c712765,
+  resourceVisualPrefab: {fileID: 8149724371220675585, guid: 0bc57dacc1fbeef4e8e73a0db88b8ca6,
     type: 3}
-  decayDuration: 1080
+  decayDuration: 960
   resourceTypeCategory: 0
-  harvestTime: 2
-  harvestAmount: 5
+  harvestTime: 15
+  harvestAmount: 3
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}
-  carryScale: {x: 0.7, y: 0.7, z: 0.7}
+  carryScale: {x: 0.6, y: 0.6, z: 0.6}
   carryRotation: {x: 70, y: 0, z: 0}
-  weight: 10
-  value: 200
-  tradeValue: 7
+  weight: 40
+  value: 300
+  tradeValue: 225
   resourceTradeCategory: 16
   vegetableValue: 0
   meatValue: 0
