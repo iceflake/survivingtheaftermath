@@ -23,7 +23,7 @@ MonoBehaviour:
   carryOffset: {x: -0.175, y: -0.061, z: -0.219}
   carryScale: {x: 0.6, y: 0.6, z: 0.6}
   carryRotation: {x: 100.1, y: -112.056, z: -111.844}
-  weight: 50
+  weight: 3
   value: 100
   tradeValue: 7
   resourceTradeCategory: 8

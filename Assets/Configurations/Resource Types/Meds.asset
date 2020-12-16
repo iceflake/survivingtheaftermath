@@ -23,9 +23,9 @@ MonoBehaviour:
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}
   carryScale: {x: 0.7, y: 0.7, z: 0.7}
   carryRotation: {x: 70, y: 0, z: 0}
-  weight: 25
+  weight: 2
   value: 300
-  tradeValue: 1
+  tradeValue: 20
   resourceTradeCategory: 16
   vegetableValue: 0
   meatValue: 0
