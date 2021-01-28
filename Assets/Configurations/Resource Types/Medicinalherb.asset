@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -2122849384, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: Jerky
+  m_Name: Medicinalherb
   m_EditorClassIdentifier: 
-  id: 48
-  parentResource: {fileID: 11400000, guid: 9b5cf621bed326643b66d4c0e06bdc68, type: 2}
-  resourceVisualPrefab: {fileID: 7573172630590348649, guid: 1c8f80e5efdedd34fbe7c48222c4325a,
+  id: 72
+  parentResource: {fileID: 0}
+  resourceVisualPrefab: {fileID: 5310012418804352299, guid: b7a5f7f941109cb49bd9876390981a4f,
     type: 3}
-  decayDuration: 1920
+  decayDuration: 1440
   resourceTypeCategory: 0
-  harvestTime: 1
-  harvestAmount: 1
+  harvestTime: 2
+  harvestAmount: 5
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}
-  carryScale: {x: 0.6, y: 0.6, z: 0.6}
+  carryScale: {x: 0.7, y: 0.7, z: 0.7}
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 1
-  value: 60
-  tradeValue: 6
-  resourceTradeCategory: 1
+  value: 90
+  tradeValue: 4
+  resourceTradeCategory: 4
   vegetableValue: 0
-  meatValue: 0.05
-  hungerFillValue: 0.6
+  meatValue: 0
+  hungerFillValue: 0.5
   pollutionValue: 0

@@ -24,7 +24,7 @@ MonoBehaviour:
   carryScale: {x: 0.7, y: 0.7, z: 0.7}
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 3
-  value: 50
+  value: 70
   tradeValue: 30
   resourceTradeCategory: 8
   vegetableValue: 0

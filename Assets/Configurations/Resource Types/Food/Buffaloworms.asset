@@ -28,6 +28,6 @@ MonoBehaviour:
   tradeValue: 5
   resourceTradeCategory: 1
   vegetableValue: 0
-  meatValue: 0.03
-  hungerFillValue: 0.75
-  pollutionValue: 0.02
+  meatValue: 0.02
+  hungerFillValue: 0.4
+  pollutionValue: 0.04

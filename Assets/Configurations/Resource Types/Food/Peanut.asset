@@ -24,10 +24,10 @@ MonoBehaviour:
   carryScale: {x: 0.6, y: 0.6, z: 0.6}
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 1
-  value: 100
+  value: 50
   tradeValue: 7
   resourceTradeCategory: 1
-  vegetableValue: 0.01
+  vegetableValue: 0.015
   meatValue: 0
-  hungerFillValue: 0.75
+  hungerFillValue: 0.4
   pollutionValue: 0.01

@@ -25,9 +25,9 @@ MonoBehaviour:
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 1
   value: 50
-  tradeValue: 7
+  tradeValue: 4
   resourceTradeCategory: 1
   vegetableValue: 0
-  meatValue: 0.03
-  hungerFillValue: 0.75
+  meatValue: 0.02
+  hungerFillValue: 0.4
   pollutionValue: 0.04

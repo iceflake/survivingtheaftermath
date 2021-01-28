@@ -18,16 +18,16 @@ MonoBehaviour:
     type: 3}
   decayDuration: 960
   resourceTypeCategory: 1
-  harvestTime: 15
+  harvestTime: 30
   harvestAmount: 3
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}
   carryScale: {x: 0.6, y: 0.6, z: 0.6}
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 1
   value: 50
-  tradeValue: 5
+  tradeValue: 3
   resourceTradeCategory: 1
-  vegetableValue: 0.02
+  vegetableValue: 0.03
   meatValue: 0
-  hungerFillValue: 0.65
+  hungerFillValue: 0.4
   pollutionValue: 0.03
