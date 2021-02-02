@@ -59,9 +59,22 @@ public static class LoadBundle
             File.Copy(file, modPath + file_info.Name, true);
         }
 
-        if(EditorUtility.DisplayDialog("Mod build complete", "Select Launch to launch the mod ingame.\n\nBuilt mods are located in: " + modPath, "Launch", "Continue"))
+        int result = EditorUtility.DisplayDialogComplex("Mod build complete", "Select Launch to launch the mod ingame.\n\nBuilt mods are located in: " + modPath, 
+            "Launch Epic", "Launch Steam", "Continue");
+        
+        switch (result)
         {
-            System.Diagnostics.Process.Start("com.epicgames.launcher://apps/Muscovy?action=launch&silent=true");
+            case 0:
+                System.Diagnostics.Process.Start("com.epicgames.launcher://apps/Muscovy?action=launch&silent=true");
+                break;
+
+            case 1:
+                System.Diagnostics.Process.Start("steam://rungameid/684450");
+                break;
+
+            case 2:
+            default:
+                break;
         }
     }
 }
