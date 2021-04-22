@@ -1,14 +1,17 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Text;
+using Aftermath.Mods;
 using UnityEditor;
 using UnityEngine;
 
 #if UNITY_EDITOR
 public static class LoadBundle
 {
-    static string modPath = System.Environment.ExpandEnvironmentVariables("%USERPROFILE%\\Documents\\Paradox Interactive\\Surviving The Aftermath\\Mods\\");
+    public static string modPath = System.Environment.ExpandEnvironmentVariables("%USERPROFILE%\\Documents\\Paradox Interactive\\Surviving The Aftermath\\Mods\\");
 
-    const byte modVersion = 0;
+    const byte modVersion = 1;
     static readonly byte[] versionTag = new byte[] { (byte)'I', (byte)'C', (byte)'E', (byte)'M', modVersion };
 
     [MenuItem("Mod/Build Mod")]
@@ -49,8 +52,27 @@ public static class LoadBundle
 
         foreach (string file in files)
         {
+            ModBundle modBundle = new ModBundle(Path.GetFileName(file));
+            
+            AssetBundle bundle = AssetBundle.LoadFromFile(file);
+            Mod[] mods = bundle.LoadAllAssets<Mod>();
+
+            List<byte> bytes = new List<byte>();
+            for (int i = 0; i < mods.Length; i++)
+            {
+                ModMetaData metaData = mods[i].GenerateMetaData();
+                modBundle.AddModMetaData(metaData);
+            }
+
+            string modBundleJson = JsonUtility.ToJson(modBundle);
+
+            bytes.AddRange(Encoding.Unicode.GetBytes(modBundleJson));
+            bytes.AddRange(BitConverter.GetBytes(Encoding.Unicode.GetByteCount(modBundleJson)));
+
             using (var stream = new FileStream(file, FileMode.Append))
             {
+                stream.Write(bytes.ToArray(), 0, bytes.Count);
+
                 stream.Write(versionTag, 0, versionTag.Length);
                 stream.Close();
             }
@@ -59,23 +81,7 @@ public static class LoadBundle
             File.Copy(file, modPath + file_info.Name, true);
         }
 
-        int result = EditorUtility.DisplayDialogComplex("Mod build complete", "Select Launch to launch the mod ingame.\n\nBuilt mods are located in: " + modPath, 
-            "Launch Epic", "Launch Steam", "Continue");
-        
-        switch (result)
-        {
-            case 0:
-                System.Diagnostics.Process.Start("com.epicgames.launcher://apps/Muscovy?action=launch&silent=true");
-                break;
-
-            case 1:
-                System.Diagnostics.Process.Start("steam://rungameid/684450");
-                break;
-
-            case 2:
-            default:
-                break;
-        }
+        PostBuildWindow.Open(modPath, files);
     }
 }
 #endif
