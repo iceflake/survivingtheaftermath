@@ -8,7 +8,6 @@ using UnityEngine;
 public class PublishWindow : EditorWindow
 {
     GUIStyle richTextStyle;
-    GUIStyle basicTextStyle;
     
     string applicationPath;
     string modPath;
@@ -32,13 +31,8 @@ public class PublishWindow : EditorWindow
 
     void Awake()
     {
-        richTextStyle = new GUIStyle();
+        richTextStyle = new GUIStyle(EditorStyles.boldLabel);
         richTextStyle.richText = true;
-
-        basicTextStyle = new GUIStyle();
-        basicTextStyle.normal.textColor = Color.white;
-        basicTextStyle.wordWrap = true;
-        basicTextStyle.padding = new RectOffset(4, 4, 4, 4);
     }
 
     void OnEnable()
@@ -48,7 +42,7 @@ public class PublishWindow : EditorWindow
 
     void OnGUI()
     {
-        EditorGUILayout.LabelField("<size=20><color=white><b>Publish your mod</b></color></size>", richTextStyle);
+        EditorGUILayout.LabelField("<size=20>Publish your mod</size>", richTextStyle);
         EditorGUILayout.Space();
         EditorGUILayout.Space();
 
@@ -60,16 +54,16 @@ public class PublishWindow : EditorWindow
     {
         if (!string.IsNullOrEmpty(modPath))
         {
-            GUILayout.BeginHorizontal();
-            GUILayout.Label("Mod: ", basicTextStyle, GUILayout.Width(100));
-            GUILayout.Label(Path.GetFileName(modPath), basicTextStyle);
-            GUILayout.EndHorizontal();
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField("Mod: ", GUILayout.Width(60));
+            EditorGUILayout.LabelField(Path.GetFileName(modPath), EditorStyles.wordWrappedLabel);
+            EditorGUILayout.EndHorizontal();
         }
 
-        GUILayout.BeginHorizontal();
-        GUILayout.Label("Path:", basicTextStyle, GUILayout.Width(100));
-        GUILayout.Label(!string.IsNullOrEmpty(modPath) ? modPath : "No path selected", basicTextStyle);
-        GUILayout.EndHorizontal();
+        EditorGUILayout.BeginHorizontal();
+        EditorGUILayout.LabelField("Path: ", GUILayout.Width(60));
+        EditorGUILayout.LabelField(!string.IsNullOrEmpty(modPath) ? modPath : "No path selected", EditorStyles.wordWrappedLabel);
+        EditorGUILayout.EndHorizontal();
 
         if (GUILayout.Button("Select mod path"))
         {
@@ -96,12 +90,12 @@ public class PublishWindow : EditorWindow
         EditorGUILayout.Space();
         EditorGUILayout.Space();
 
-        GUILayout.BeginVertical();
-        EditorGUILayout.LabelField("<size=16><color=white><b>Steam Workshop</b></color></size>", richTextStyle);
+        EditorGUILayout.BeginVertical();
+        EditorGUILayout.LabelField("<size=16>Steam Workshop</size>", richTextStyle);
         EditorGUILayout.Space();
         EditorGUILayout.HelpBox("You need to own Surviving the Aftermath in Steam to be able to upload the mod to Steam Workshop.", MessageType.Info);
-        GUILayout.Label("Surviving the Aftermath installation path:", basicTextStyle); 
-        GUILayout.Label(string.IsNullOrEmpty(applicationPath) ? string.Empty : applicationPath, basicTextStyle);
+        EditorGUILayout.LabelField("Surviving the Aftermath installation path:", EditorStyles.wordWrappedLabel); 
+        EditorGUILayout.LabelField(string.IsNullOrEmpty(applicationPath) ? string.Empty : applicationPath, EditorStyles.wordWrappedLabel);
 
         if (string.IsNullOrEmpty(applicationPath))
         {
@@ -121,7 +115,7 @@ public class PublishWindow : EditorWindow
             }
         }
 
-        GUILayout.EndVertical();
+        EditorGUILayout.EndVertical();
     }
 
     void TryToFindApplicationPath()

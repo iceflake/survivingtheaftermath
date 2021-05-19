@@ -1,13 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using UnityEditor;
 using UnityEngine;
 
 public class PostBuildWindow : EditorWindow
 {
     GUIStyle richTextStyle;
-    GUIStyle basicTextStyle;
     string modPath;
     string[] filePaths;
 
@@ -24,48 +21,50 @@ public class PostBuildWindow : EditorWindow
 
     void Awake()
     {
-        richTextStyle = new GUIStyle();
+        richTextStyle = new GUIStyle(EditorStyles.boldLabel);
         richTextStyle.richText = true;
         richTextStyle.alignment = TextAnchor.MiddleCenter;
-
-        basicTextStyle = new GUIStyle();
-        basicTextStyle.normal.textColor = Color.white;
-        basicTextStyle.wordWrap = true;
-        basicTextStyle.padding = new RectOffset(4, 4, 4, 4);
     }
 
     void OnGUI()
     {
         EditorGUILayout.Space();
-        EditorGUILayout.LabelField("<size=20><color=white><b>Mod build complete!</b></color></size>", richTextStyle);
+        EditorGUILayout.LabelField("<size=20>Mod build complete!</size>", richTextStyle);
         EditorGUILayout.Space();
         EditorGUILayout.Space();
-        EditorGUILayout.LabelField("Select Launch to launch the mod ingame.", basicTextStyle);
-        EditorGUILayout.LabelField($"Built mods are located in:\n{modPath}", basicTextStyle);
+        EditorGUILayout.LabelField("Select Launch to launch the mod ingame.", EditorStyles.wordWrappedLabel);
+        EditorGUILayout.LabelField($"Built mods are located in:\n{modPath}", EditorStyles.wordWrappedLabel);
         EditorGUILayout.Space();
 
         GUILayout.BeginVertical();
+
         if (GUILayout.Button("Launch Epic"))
         {
             System.Diagnostics.Process.Start("com.epicgames.launcher://apps/Muscovy?action=launch&silent=true");
             Close();
         }
+
         if (GUILayout.Button("Launch Steam"))
         {
             System.Diagnostics.Process.Start("steam://rungameid/684450");
             Close();
         }
+
         EditorGUILayout.Space();
+
         if (GUILayout.Button("Publish on Steam Workshop"))
         {
             PublishWindow.Open(Path.Combine(modPath, Path.GetFileName(filePaths[0])));
             Close();
         }
+
         EditorGUILayout.Space();
+
         if (GUILayout.Button("Continue"))
         {
             Close();
         }
+
         GUILayout.EndVertical();
     }
 }

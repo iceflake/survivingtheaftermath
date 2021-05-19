@@ -16,4 +16,8 @@ MonoBehaviour:
   modname: "Surstr\xF6mming Factory"
   desc: Adds a fish fermenting factory
   version: 1.0
+  tags:
+  - Buildings
+  - Events
+  - Disasters
   startID: 1586530000
