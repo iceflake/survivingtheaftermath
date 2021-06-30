@@ -15,7 +15,7 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: b13ac5df4496207428e46d323f7b0754, type: 3}
   modname: "Surstr\xF6mming Factory"
   desc: Adds a fish fermenting factory
-  version: 1.0
+  version: 1.1
   tags:
   - Buildings
   - Events

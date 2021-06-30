@@ -14,60 +14,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1586530000
   catastrophe: 1
-  preventGrowingFood: 0
-  removeCrop: 0
-  cropRemoveAmount:
-    min: 0
-    max: 0
-  disableElectricityProduction: 0
-  personConditionDatas: []
-  waterConsumptionFactor: 1
-  personValueDecayMultipliers: []
-  personValueDecayRate: []
-  damageDealData:
-    damageTargetTypes: 2
-    applyDirectDamage: 1
-    targetPercentage: 0.3
-    damageRange:
-      min: 0.047138046
-      max: 0.26329964
-    effectRate: 10
-    effectOffset: 1
-    depositResource: {fileID: 0}
-    damageEffectTime: 5
-    applySplashDamage: 0
-    splashDamage:
-      includeBuildings: 0
-      includePeople: 0
-      radius: 0
-      personDamageTypes: []
-      buildingDamage: 0
-  warningIcon: {fileID: 0}
-  duration:
-    min: 0.1
-    max: 0.4
-  postProcessProfile: {fileID: 0}
-  effectSpawnRate: 0.3
-  randomSpawnOffset: 1
-  randomTargetedEffectSpawnRate: 1
-  randomTargetedEffectSpawnOffset: 0.5
-  disasterEffectPrefabs: []
-  targetedDisasterEffectPrefabs:
-  - {fileID: 178935473771124302, guid: 1bbe8552e6ea133468a8bd0e5fbc64e1, type: 3}
-  fadeSpeed: 0.1
-  cameraEffect: {fileID: 0}
-  useVisualTargetedEffects: 0
+  isWinter: 0
+  minPopulationLimit: 0
+  spawnedEnemies: []
+  taskPriorityOffset: []
+  constructionPriorityOffset: []
+  levelConfigurations: []
+  visualTemplateLow: {fileID: 11400000, guid: 372296125650a7d4ebdfc1010185b016, type: 2}
+  visualTemplateMedium: {fileID: 11400000, guid: 372296125650a7d4ebdfc1010185b016,
+    type: 2}
+  visualTemplateHigh: {fileID: 11400000, guid: 372296125650a7d4ebdfc1010185b016, type: 2}
   fogColor: {r: 0, g: 0.38679248, b: 0, a: 0.6627451}
   fogRange:
     min: 0
     max: 0
+  disasterFogColor: {r: 0, g: 0, b: 0, a: 0}
+  disasterFogHeight: 1
+  disasterFogMask1: {x: 0, y: 0, z: 0, w: 1}
+  disasterFogMask2: {x: 0, y: 0, z: 1, w: 0}
   soundEvent:
     eventName: event:/SFX/Disasters/Catastrophe - Fallout
     eventParams: []
-  disasterFogColor: {r: 0, g: 0, b: 0, a: 0}
-  disasterForHeight: 1
-  disasterFogMask1: {x: 0, y: 0, z: 0, w: 1}
-  disasterFogMask2: {x: 0, y: 0, z: 1, w: 0}
+  highLevelSoundEvent:
+    eventName: event:/Ambient/Catastrophe Ambients/High Level Ambient Catastrophe
+    eventParams: []
   lightColor:
     serializedVersion: 2
     key0: {r: 0, g: 0.8018868, b: 0.44850823, a: 1}

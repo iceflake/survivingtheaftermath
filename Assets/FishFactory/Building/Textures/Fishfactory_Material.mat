@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Fishfactory_Material
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 950e2cbe716992e4f9f8c40b426ed04b, type: 3}
   m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -68,10 +68,16 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
+    - _SnowAmount: 1
+    - _SnowMultiplier: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
+    - _Wind: 0
+    - _YWind: 1
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _OverlayColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

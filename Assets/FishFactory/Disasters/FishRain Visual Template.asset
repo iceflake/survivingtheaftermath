@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077486742, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
+  m_Name: FishRain Visual Template
+  m_EditorClassIdentifier: 
+  id: 1586530000
+  postProcessProfile: {fileID: 0}
+  effectSpawnRate: 0.3
+  randomSpawnOffset: 1
+  randomTargetedEffectSpawnRate: 0.2
+  disasterEffectPrefabs: []
+  targetedDisasterEffectPrefabs:
+  - {fileID: 178935473771124302, guid: 1bbe8552e6ea133468a8bd0e5fbc64e1, type: 3}
+  fadeSpeed: 0.1
+  cameraEffect: {fileID: 0}
+  showNotification: 0
+  useVisualTargetedEffects: 1
+  worldMapVisualEffect: {fileID: 0}
