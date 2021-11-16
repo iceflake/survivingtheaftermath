@@ -14,18 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 7
   parentResource: {fileID: 0}
-  resourceVisualPrefab: {fileID: 7232547599902217266, guid: 3f42267c4549fb24484b3ed722c675c8,
+  resourceVisualPrefab: {fileID: 2531075300281738258, guid: 14e4db3d1b52b24408dd03a36677928b,
     type: 3}
   decayDuration: 1920
   resourceTypeCategory: 4
-  harvestTime: 25
-  harvestAmount: 3
+  harvestTime: 30
+  harvestAmount: 13
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}
   carryScale: {x: 0.7, y: 0.7, z: 0.7}
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 1
   value: 70
-  tradeValue: 4
+  tradeValue: 1
   resourceTradeCategory: 4
   vegetableValue: 0
   meatValue: 0

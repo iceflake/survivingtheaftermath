@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   parentResource: {fileID: 0}
-  resourceVisualPrefab: {fileID: 6137403312692891313, guid: ea8b373a146a5764abd93fdd6d56c3b9,
+  resourceVisualPrefab: {fileID: 9204557104623725876, guid: ad3476a0b03dac7429d2b9b84072c830,
     type: 3}
   decayDuration: 800
   resourceTypeCategory: 0
@@ -25,9 +25,10 @@ MonoBehaviour:
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 1
   value: 150
-  tradeValue: 7
+  tradeValue: 5
   resourceTradeCategory: 16
   vegetableValue: 0
   meatValue: 0
   hungerFillValue: 0.5
   pollutionValue: 0
+  productionDisplayStats: []

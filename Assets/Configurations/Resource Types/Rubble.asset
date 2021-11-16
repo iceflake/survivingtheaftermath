@@ -10,24 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -2122849384, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
-  m_Name: BeetleBread
+  m_Name: Rubble
   m_EditorClassIdentifier: 
-  id: 70
-  parentResource: {fileID: 11400000, guid: 9b5cf621bed326643b66d4c0e06bdc68, type: 2}
-  resourceVisualPrefab: {fileID: 3793021418879794947, guid: 0b45d09582cde9b4aa92a547bcd18fec,
+  id: 73
+  parentResource: {fileID: 0}
+  resourceVisualPrefab: {fileID: 7232547599902217266, guid: 3f42267c4549fb24484b3ed722c675c8,
     type: 3}
-  decayDuration: 1920
-  resourceTypeCategory: 1
-  harvestTime: 1
-  harvestAmount: 1
+  decayDuration: 2
+  resourceTypeCategory: 4
+  harvestTime: 30
+  harvestAmount: 6
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}
-  carryScale: {x: 0.6, y: 0.6, z: 0.6}
+  carryScale: {x: 0.7, y: 0.7, z: 0.7}
   carryRotation: {x: 70, y: 0, z: 0}
   weight: 1
-  value: 100
-  tradeValue: 6
-  resourceTradeCategory: 1
+  value: 1
+  tradeValue: 1
+  resourceTradeCategory: 4
   vegetableValue: 0
-  meatValue: 0.035
-  hungerFillValue: 1
-  pollutionValue: 0.03
+  meatValue: 0
+  hungerFillValue: 0.5
+  pollutionValue: 0
+  productionDisplayStats: []

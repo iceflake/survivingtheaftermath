@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 23
   parentResource: {fileID: 0}
-  resourceVisualPrefab: {fileID: 1524589647357759921, guid: f9b1650c1680a39468c0a4ebb746de5c,
+  resourceVisualPrefab: {fileID: 6386063022512318193, guid: de9edfeb9b498e44eb01875960d76028,
     type: 3}
   decayDuration: 960
   resourceTypeCategory: 64
   harvestTime: 30
-  harvestAmount: 4
+  harvestAmount: 5
   carryOffset: {x: -0.18, y: -0.032, z: -0.083}
   carryScale: {x: 0.7, y: 0.7, z: 0.7}
   carryRotation: {x: 70, y: 0, z: 0}

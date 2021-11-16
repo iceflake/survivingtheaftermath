@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Milk
   m_EditorClassIdentifier: 
   id: 64
-  parentResource: {fileID: 11400000, guid: fb6cafae6711db743aacfe5ac86125a4, type: 2}
-  resourceVisualPrefab: {fileID: 7573172630590348649, guid: 1c8f80e5efdedd34fbe7c48222c4325a,
+  parentResource: {fileID: 11400000, guid: d4eade2fc36c152409aa43eaf5e26d82, type: 2}
+  resourceVisualPrefab: {fileID: 3793021418879794947, guid: 0b45d09582cde9b4aa92a547bcd18fec,
     type: 3}
-  decayDuration: 720
+  decayDuration: 1920
   resourceTypeCategory: 0
   harvestTime: 3
   harvestAmount: 4
@@ -27,7 +27,8 @@ MonoBehaviour:
   value: 60
   tradeValue: 4
   resourceTradeCategory: 1
-  vegetableValue: 0.005
+  vegetableValue: 0
   meatValue: 0.005
-  hungerFillValue: 0.4
+  hungerFillValue: 0.35
   pollutionValue: 0.03
+  productionDisplayStats: []

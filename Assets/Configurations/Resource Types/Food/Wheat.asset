@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 24
   parentResource: {fileID: 0}
-  resourceVisualPrefab: {fileID: 7573172630590348649, guid: 1c8f80e5efdedd34fbe7c48222c4325a,
+  resourceVisualPrefab: {fileID: 4048641865569320576, guid: e8d2549bfeb4bbd46a048fba9fa6d54b,
     type: 3}
-  decayDuration: 960
+  decayDuration: 1920
   resourceTypeCategory: 0
   harvestTime: 15
   harvestAmount: 3
@@ -29,5 +29,6 @@ MonoBehaviour:
   resourceTradeCategory: 1
   vegetableValue: 0
   meatValue: 0
-  hungerFillValue: 0.4
+  hungerFillValue: 0.5
   pollutionValue: 0.02
+  productionDisplayStats: []

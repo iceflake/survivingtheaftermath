@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 56
   parentResource: {fileID: 0}
-  resourceVisualPrefab: {fileID: 1524589647357759921, guid: 88945db87d64c6b4ba713fa56ae4ca01,
+  resourceVisualPrefab: {fileID: 6896465480209007293, guid: 6b7fea26465d006439319f492591c48b,
     type: 3}
   decayDuration: 1440
   resourceTypeCategory: 0
