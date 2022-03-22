@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 878106364, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
   m_Name: Make Fish
   m_EditorClassIdentifier: 
-  professionType: 2
+  professionType: 8
   input:
   - type: {fileID: 11400000, guid: f9dd76d1691ba5541bfa960bd83ad3e9, type: 2}
     value: 1
