@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2122849384, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
+  m_Name: Moonrock
+  m_EditorClassIdentifier: 
+  id: 75
+  parentResource: {fileID: 0}
+  resourceVisualPrefab: {fileID: 2428021550281488050, guid: 554d1c2fab02dca4c85f596fff1f100f,
+    type: 3}
+  decayDuration: 2
+  resourceTypeCategory: 0
+  harvestTime: 20
+  harvestAmount: 10
+  carryOffset: {x: -0.18, y: -0.032, z: -0.083}
+  carryScale: {x: 0.7, y: 0.7, z: 0.7}
+  carryRotation: {x: 70, y: 0, z: 0}
+  weight: 2
+  value: 300
+  tradeValue: 2
+  resourceTradeCategory: 4
+  vegetableValue: 0
+  meatValue: 0
+  hungerFillValue: 0.5
+  pollutionValue: 0
+  productionDisplayStats: []

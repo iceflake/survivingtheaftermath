@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2122849384, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
+  m_Name: Injection
+  m_EditorClassIdentifier: 
+  id: 77
+  parentResource: {fileID: 11400000, guid: e8cd2f4ebc9232e47a92b1b4aa637303, type: 2}
+  resourceVisualPrefab: {fileID: 8589462516619366411, guid: 5570f07c2a509a8478f8ca0a06515353,
+    type: 3}
+  decayDuration: 1920
+  resourceTypeCategory: 0
+  harvestTime: 2
+  harvestAmount: 5
+  carryOffset: {x: -0.18, y: -0.032, z: -0.083}
+  carryScale: {x: 0.7, y: 0.7, z: 0.7}
+  carryRotation: {x: 70, y: 0, z: 0}
+  weight: 2
+  value: 300
+  tradeValue: 25
+  resourceTradeCategory: 16
+  vegetableValue: 0
+  meatValue: 0
+  hungerFillValue: 0.5
+  pollutionValue: 0
+  productionDisplayStats: []
