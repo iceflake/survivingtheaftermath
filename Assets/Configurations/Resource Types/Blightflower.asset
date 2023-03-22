@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2122849384, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
+  m_Name: Blightflower
+  m_EditorClassIdentifier: 
+  id: 82
+  parentResource: {fileID: 0}
+  resourceVisualPrefab: {fileID: 259504669063035469, guid: 6dbe7a4966014f346854e1d185e5333a,
+    type: 3}
+  decayDuration: 1440
+  resourceTypeCategory: 0
+  harvestTime: 2
+  harvestAmount: 2
+  carryOffset: {x: -0.18, y: -0.032, z: -0.083}
+  carryScale: {x: 0.7, y: 0.7, z: 0.7}
+  carryRotation: {x: 70, y: 0, z: 0}
+  weight: 1
+  value: 90
+  tradeValue: 4
+  resourceTradeCategory: 0
+  vegetableValue: 0
+  meatValue: 0
+  hungerFillValue: 0
+  pollutionValue: 0
+  productionDisplayStats: []
